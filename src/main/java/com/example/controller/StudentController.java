@@ -141,7 +141,7 @@ public class StudentController
         System.out.println(students);
         model.addAttribute ("students", students);
         model.addAttribute("title", "View All Student");
-        
+       // log.info ("select all students");
         return "viewall";
     }
 
